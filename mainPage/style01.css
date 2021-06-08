@@ -1,5 +1,40 @@
 @charset "UTF 8";
 
+@font-face {
+    font-family: amor;
+    src: url(fonts/Milla\ Cilla\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+body {
+    background-color: #ff0000b2;
+}
+
 .principal {
-    color: red;
+    color: black;
+    font-family: 'amor';
+    font-size: 70px;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 6px;
+}
+
+main {
+    background-color: white;
+    height: 550px;
+    border-radius: 7px;
+    margin: auto;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+    width: 1050px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'openSans';
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: justify;
 }
