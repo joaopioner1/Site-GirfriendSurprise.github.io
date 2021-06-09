@@ -32,9 +32,38 @@ main {
     padding-bottom: 10px;
 }
 
+h2 {
+    font-family: 'openSans';
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
 p {
     font-family: 'openSans';
     padding-left: 35px;
     padding-right: 35px;
     text-align: justify;
+    font-weight: bolder;
+    text-indent: 30px;
+}
+
+.smallWords {
+    font-size: 10px;
+    color: #ff0000b2;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: #ff0000b2;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
