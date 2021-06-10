@@ -5,23 +5,13 @@
   src: url(fonts/Milla\ Cilla\ -\ Personal\ Use.otf);
 }
 
+@font-face {
+  font-family: openSans;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
 body {
   background-image: linear-gradient(to right, #f30438e0, #e01541d0);
-}
-
-div > p {
-  display: none;
-}
-
-div:hover > p {
-  display: block;
-  color: red;
-  background-color: aqua;
-  width: 300px;
-}
-
-div:hover {
-  color: blue;
 }
 
 main {
@@ -38,4 +28,21 @@ h1 {
   font-weight: lighter;
   color: black;
   text-align: center;
+  font-size: 65px;
+}
+
+h1:hover {
+  text-decoration: underline;
+  color: #e01541d0;
+}
+
+
+main > p {
+  font-family: 'openSans';
+  text-align: center;
+  text-align: justify;
+  font-weight: bolder;
+  text-indent: 30px;
+  font-size: 20px;
+  float: left;
 }
