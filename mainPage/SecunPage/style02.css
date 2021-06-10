@@ -1,0 +1,57 @@
+@charset "UTF 8";
+
+@font-face {
+  font-family: amor;
+  src: url(fonts/Milla\ Cilla\ -\ Personal\ Use.otf);
+}
+
+body {
+  background-image: linear-gradient(to right, #f7b80ae0, #f6df11d7);
+}
+
+main {
+  background-color: white;
+  height: 600px;
+  border-radius: 7px;
+  margin: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+  width: 1050px;
+}
+
+p.photos {
+  padding-bottom: 20px;
+  font-family: 'amor';
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+}
+
+p.reasons {
+    font-family: 'amor';
+    font-weight: lighter;
+    font-size: 100px;
+    text-align: center;
+}
+
+p.songs {
+  padding-bottom: 20px;
+  font-family: 'amor';
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+}
+
+main:hover > .photos {
+    text-decoration: underline;
+    color: #F7B90A;
+}
+
+main:hover > .reasons {
+  text-decoration: underline;
+  color: #f36f04e5;
+}
+
+main:hover > .songs {
+  text-decoration: underline;
+  color: #F6E011;
+}
