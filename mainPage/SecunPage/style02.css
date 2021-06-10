@@ -18,27 +18,30 @@ main {
   width: 1050px;
 }
 
-p.photos {
+.photos {
   padding-bottom: 20px;
   font-family: 'amor';
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
+  color: black;
 }
 
-p.reasons {
+.reasons {
     font-family: 'amor';
     font-weight: lighter;
     font-size: 100px;
     text-align: center;
+    color: black;
 }
 
-p.songs {
+.songs {
   padding-bottom: 20px;
   font-family: 'amor';
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
+  color: black;
 }
 
 main:hover > .photos {
