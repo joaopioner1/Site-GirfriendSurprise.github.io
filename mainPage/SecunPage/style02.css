@@ -58,3 +58,15 @@ main:hover > .songs {
   text-decoration: underline;
   color: #F6E011;
 }
+
+main:hover > .photos:active {
+    color: rgba(60, 60, 231, 0.87);
+}
+
+main:hover > .reasons:active {
+  color: rgba(60, 60, 231, 0.87);
+}
+
+main:hover > .songs:active {
+  color: rgba(60, 60, 231, 0.87);
+}

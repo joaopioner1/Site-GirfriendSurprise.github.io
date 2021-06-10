@@ -1,0 +1,41 @@
+@charset "UTF 8";
+
+@font-face {
+  font-family: amor;
+  src: url(fonts/Milla\ Cilla\ -\ Personal\ Use.otf);
+}
+
+body {
+  background-image: linear-gradient(to right, #f30438e0, #e01541d0);
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+  color: red;
+  background-color: aqua;
+  width: 300px;
+}
+
+div:hover {
+  color: blue;
+}
+
+main {
+  background-color: white;
+  height: 600px;
+  border-radius: 7px;
+  margin: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.37);
+  width: 1050px;
+}
+
+h1 { 
+  font-family: 'amor';
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
